@@ -1,0 +1,101 @@
+html {
+  background-color: #222222;
+}
+.moeda-container {
+  z-index: 1;
+  /* margin:0px; */
+  display: flex;
+  justify-content: center;
+  
+}
+
+.row {
+  margin-top:65px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  padding: 0 10px;
+  border-bottom: 1px solid #222222;
+  width: 900px;
+}
+
+.moeda {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 300px;
+}
+
+.moeda h2 {
+  background-color: transparent;
+  font-size: 16px;
+  width: 150px;
+}
+
+.moeda img {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.moeda-symbol {
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.moeda-data {
+  background-color: transparent;
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.moeda-price {
+  background-color: transparent;
+  width: 110px;
+}
+
+.moeda-volume {
+  background-color: transparent;
+  width: 155px;
+}
+
+.moeda-marketcap {
+  background-color: transparent;
+  width: 230px;
+}
+
+.moeda-percent {
+  background-color: transparent;
+  width: 100px;
+}
+
+.red {
+  background-color: transparent;
+  color: #f00606;
+}
+
+.green {
+  background-color: transparent;
+  color: #16c784;
+}
+.Footer,a{
+  top:97vh;
+  position:fixed;
+}
+a{
+  background-color:transparent;
+  left:5px;
+  font-weight:600;
+  color: #F1F1F1;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+  opacity:0.8;
+}
